@@ -1,0 +1,9 @@
+.header>.container {
+  position: relative;
+}
+
+.header {
+  height: 108px;
+  position: relative;
+  margin-bottom: 87px;
+}

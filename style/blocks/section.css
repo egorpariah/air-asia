@@ -1,0 +1,28 @@
+.section {
+  margin-bottom: 120px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.section-title--fire {
+  position: relative;
+}
+
+.section-title--fire::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: url('/img/flame.png') no-repeat;
+  height: 28px;
+  width: 21px;
+  top: 15px;
+  margin-left: 15px;
+}
+
+.section-title--dark {
+  color: #000;
+}

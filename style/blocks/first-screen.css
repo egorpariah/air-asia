@@ -1,0 +1,19 @@
+.first-screen {
+  margin-bottom: 243px;
+}
+
+.first-screen__content {
+  width: 520px;
+}
+
+.first-screen__title {
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.first-screen__text {
+  font-size: 18px;
+  margin-bottom: 29px;
+}

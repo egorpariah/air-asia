@@ -1,0 +1,23 @@
+.footer {
+  height: 140px;
+}
+
+.footer__content {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer>.container {
+  position: relative;
+}
+
+.footer .logo {
+  top: 46px;
+}
+
+.footer .menu {
+  top: 54px;
+}
+
+.footer .contacts {
+  top: 44px;
+}

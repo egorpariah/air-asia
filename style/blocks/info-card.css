@@ -1,0 +1,39 @@
+.info-card {
+  width: 557px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.info-card__pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-card__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px 25px;
+  min-height: 171px;
+}
+
+.info-card__date {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.info-card__title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info-card__description {
+  margin: 0;
+}

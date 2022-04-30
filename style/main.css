@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("./blocks/base.css");
+@import url("./blocks/wrapper.css");
+@import url("./blocks/header.css");
+@import url("./blocks/logo.css");
+@import url("./blocks/menu.css");
+@import url("./blocks/contacts.css");
+@import url("./blocks/first-screen.css");
+@import url("./blocks/button.css");
+@import url("./blocks/section.css");
+@import url("./blocks/tours.css");
+@import url("./blocks/news.css");
+@import url("./blocks/info-card.css");
+@import url("./blocks/pagination.css");
+@import url("./blocks/about.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/social.css");
