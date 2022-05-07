@@ -1,9 +1,9 @@
-.header>.container {
-  position: relative;
+.header {
+  padding-top: 26px;
+  margin-bottom: 30px;
 }
 
-.header {
-  height: 108px;
-  position: relative;
-  margin-bottom: 87px;
+.header__container {
+  display: flex;
+  align-items: center;
 }

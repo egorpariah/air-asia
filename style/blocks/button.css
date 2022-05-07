@@ -2,7 +2,7 @@
   display: inline-block;
   background: #F5170E;
   border-radius: 35px;
-  padding: 18px 40px;
+  padding: 17px 40px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -15,7 +15,6 @@
 }
 
 .button--light {
-  padding: 16px 30px;
   color: #F5170E;
   background: none;
   border: 1px solid #F5170E;
@@ -25,4 +24,8 @@
   color: #fff;
   background: #F5170E;
   box-shadow: none;
+}
+
+.button--small {
+  padding: 16px 30px;
 }

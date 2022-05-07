@@ -1,13 +1,11 @@
 .social {
-  position: absolute;
-  top: 50px;
-  right: 263px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 .social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
 .social__item:last-child {

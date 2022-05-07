@@ -1,19 +1,23 @@
 .first-screen {
-  margin-bottom: 243px;
+  margin-bottom: 244px;
+}
+
+.first-screen__container {
+  min-height: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .first-screen__content {
-  width: 520px;
+  width: 45%;
 }
 
 .first-screen__title {
   margin-bottom: 20px;
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 1.4;
 }
 
 .first-screen__text {
   font-size: 18px;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 }

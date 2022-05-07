@@ -1,5 +1,9 @@
 .section {
-  margin-bottom: 120px;
+  margin-bottom: 125px;
+}
+
+.section--bg--light {
+  background: #fff;
 }
 
 .section-title {
@@ -15,14 +19,18 @@
 .section-title--fire::after {
   content: "";
   display: inline-block;
-  position: absolute;
-  background: url('/air-asia/img/flame.png') no-repeat;
+  background: url('/img/flame.png') no-repeat;
   height: 28px;
   width: 21px;
-  top: 15px;
-  margin-left: 15px;
+  margin-bottom: -3px;
+  margin-left: 16px;
 }
 
 .section-title--dark {
   color: #000;
+}
+
+.section-title--blue {
+  font-size: 48px;
+  color: #1A1B1E;
 }

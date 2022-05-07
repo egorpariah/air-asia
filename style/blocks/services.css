@@ -1,0 +1,17 @@
+.services {
+  padding-top: 98px;
+  padding-bottom: 84px;
+  margin-bottom: 0;
+}
+
+.services__list {
+  margin-bottom: 70px;
+}
+
+.services__item {
+  margin-bottom: 49px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}

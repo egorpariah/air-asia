@@ -1,9 +1,11 @@
 .contacts {
-  position: absolute;
-  top: 26px;
-  right: 0;
+  margin-left: auto;
   font-style: normal;
   text-align: right;
+}
+
+.footer .contacts {
+  margin-left: 72px;
 }
 
 .contacts__phone {
@@ -11,6 +13,10 @@
   margin-bottom: -9px;
   font-size: 26px;
   text-decoration: none;
+}
+
+.footer .contacts__phone {
+  margin-bottom: 0;
 }
 
 .contacts__workhours {

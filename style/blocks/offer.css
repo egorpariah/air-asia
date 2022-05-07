@@ -1,0 +1,74 @@
+.offer {
+  overflow: hidden;
+  min-height: 449px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.offer__pic {
+  min-height: 144px;
+}
+
+.offer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 32px 22px 26px;
+}
+
+.offer__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.offer__features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 7px;
+  color: #666;
+}
+
+.offer__feature {
+  width: 130px;
+  margin-bottom: 15px;
+  margin-right: 28px;
+}
+
+.offer__feature:nth-child(2n) {
+  margin-right: 0;
+}
+
+.offer__feature::before {
+  content: "";
+  display: block;
+  height: 26px;
+  width: 26px;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.offer__feature--days::before {
+  background: url('/img/icons/calendar.png') no-repeat;
+}
+
+.offer__feature--food::before {
+  width: 36px;
+  background: url('/img/icons/meal.png') no-repeat;
+}
+
+.offer__description {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #303030;
+}
+
+.offer__btn-wrapper {
+  margin-top: auto;  
+}
