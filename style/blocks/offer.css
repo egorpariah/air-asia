@@ -55,12 +55,12 @@
 }
 
 .offer__feature--days::before {
-  background: url('/img/icons/calendar.png') no-repeat;
+  background: url('/air-asia/img/icons/calendar.png') no-repeat;
 }
 
 .offer__feature--food::before {
   width: 36px;
-  background: url('/img/icons/meal.png') no-repeat;
+  background: url('/air-asia/img/icons/meal.png') no-repeat;
 }
 
 .offer__description {
