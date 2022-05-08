@@ -2,12 +2,6 @@
   display: flex;
 }
 
-.service:hover .service__btn {
-  color: #fff;
-  background: #F5170E;
-  box-shadow: none;
-}
-
 .service__pic {
   width: 40%;
   margin-right: 5%;

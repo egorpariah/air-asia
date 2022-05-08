@@ -12,10 +12,11 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .partners__item {
-  margin-left: 20px;
+  margin-left: 38px;
 }
 
 .partners__item:nth-child(4n+1) {
@@ -25,7 +26,6 @@
 .partners__link {
   filter: grayscale(100%);
   display: flex;
-  width: 260px;
   height: 125px;
   align-items: center;
   justify-content: center;

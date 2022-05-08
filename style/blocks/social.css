@@ -21,33 +21,33 @@
 }
 
 .social__item--tg .social__link {
-  background: url("/air-asia/img/icons/t.png");
+  background: url("../../img/icons/t.png");
 }
 
 .social__item--tg .social__link:hover {
-  background: url("/air-asia/img/icons/t-hover.png");
+  background: url("../../img/icons/t-hover.png");
 }
 
 .social__item--vk .social__link {
-  background: url("/air-asia/img/icons/vk.png");
+  background: url("../../img/icons/vk.png");
 }
 
 .social__item--vk .social__link:hover {
-  background: url("/air-asia/img/icons/vk-hover.png");
+  background: url("../../img/icons/vk-hover.png");
 }
 
 .social__item--fb .social__link {
-  background: url("/air-asia/img/icons/fb.png");
+  background: url("../../img/icons/fb.png");
 }
 
 .social__item--fb .social__link:hover {
-  background: url("/air-asia/img/icons/fb-hover.png");
+  background: url("../../img/icons/fb-hover.png");
 }
 
 .social__item--inst .social__link {
-  background: url("/air-asia/img/icons/in.png");
+  background: url("../../img/icons/in.png");
 }
 
 .social__item--inst .social__link:hover {
-  background: url("/air-asia/img/icons/in-hover.png");
+  background: url("../../img/icons/in-hover.png");
 }
