@@ -1,12 +1,15 @@
 .button {
   display: inline-block;
   background: #F5170E;
+  color: #fff;
+  border: none;
   border-radius: 35px;
   padding: 17px 40px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.25s ease-out;
 }
 
 .button:hover {
@@ -20,6 +23,15 @@
   border: 1px solid #F5170E;
 }
 
+.button--dark {
+  background: #8E8E8E;
+}
+
+.button--dark:hover {
+  background: #2B2B2B;
+  box-shadow: none;
+}
+
 .button--light:hover {
   color: #fff;
   background: #F5170E;
@@ -28,4 +40,8 @@
 
 .button--small {
   padding: 16px 30px;
+}
+
+.button--hello {
+  padding: 17px 58px;
 }

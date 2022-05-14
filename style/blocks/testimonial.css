@@ -1,0 +1,83 @@
+.testimonial {
+  display: inline-flex;
+  flex-direction: column;
+  background: #F4F5F5;
+  padding: 50px 30px 35px;
+  border-radius: 5px;
+  min-height: 542px;
+}
+
+.testimonial__client {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.testimonial__avatar {
+  display: block;
+  width: 142px;
+  height: 142px;
+  margin-right: 21px;
+  border-radius: 50%;
+}
+
+.testimonial__info {
+  margin-top: 7px;
+}
+
+.testimonial__name {
+  display: block;
+  margin-bottom: 6px;
+  color: #1A1B1E;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.testimonial__name:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.testimonial__name::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 9px;
+  background: url("../../img/icons/sprite.png") -122px -122px;;
+}
+
+.testimonial__tour {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 35px;
+  background: #B9EAE4;
+  color: #303030;
+  font-size: 13px;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.testimonial__title {
+  margin-bottom: 13px;
+  color: #1A1B1E;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.testimonial__text {
+  line-height: 1.68;
+  color: #818181;
+  margin-bottom: 36px;
+}
+
+.testimonial__date {
+  color: #1A1B1E;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: auto;
+}

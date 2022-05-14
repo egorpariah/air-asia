@@ -4,19 +4,26 @@
 
 .section--bg--light {
   background: #fff;
+  padding-top: 98px;
+  margin-bottom: 0;
 }
 
-.section-title {
+.section--bg--gray {
+  background: #F4F5F5;
+  margin-bottom: 0;
+}
+
+.section__title {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 
-.section-title--fire {
+.section__title--fire {
   position: relative;
 }
 
-.section-title--fire::after {
+.section__title--fire::after {
   content: "";
   display: inline-block;
   background: url('../../img/flame.png') no-repeat;
@@ -26,11 +33,16 @@
   margin-left: 16px;
 }
 
-.section-title--dark {
+.section__title--dark {
   color: #000;
 }
 
-.section-title--blue {
+.section__title--light {
+  font-size: 48px;
+  color: #fff;
+}
+
+.section__title--blue {
   font-size: 48px;
   color: #1A1B1E;
 }

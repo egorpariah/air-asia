@@ -10,7 +10,7 @@
 
 .contacts__phone {
   display: block;
-  margin-bottom: -9px;
+  margin-bottom: -13px;
   font-size: 26px;
   text-decoration: none;
 }
@@ -19,14 +19,81 @@
   margin-bottom: 0;
 }
 
+.contacts__dropdown {
+  display: inline-block;
+}
+
 .contacts__workhours {
   color: #98A4A8;
   font-size: 13px;
   text-decoration: underline;
+  transition: 0.3s ease-out;
+  cursor: default;
 }
 
 .contacts__workhours:hover {
   color: #fff;
+}
+
+.contacts__dropdown {
+  position: relative;
+}
+
+.contacts__dropdown:hover .contacts__time {
+  left: auto;
+  opacity: 1;
+}
+
+.contacts__dropdown:hover .contacts__workhours {
+  color: #fff;
+}
+
+.contacts__time {
+  margin-top: 5px;
+  color: #1E1F20;
+  font-size: 13px;
+  text-align: left;
+  padding: 13px 17px;
+  line-height: 21px;
+  position: absolute;
+  width: 157px;
+  height: 68px;
+  background: #CDD1D2;
+  top: 100%;
+  right: 0;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity .3s ease-out;
+  left: -9999px;
+}
+
+.contacts__time::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  right: 41px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 9px solid #CDD1D2;
+  border-top: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+}
+
+.contacts__time::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  width: 157px;
+  height: 10px;
+}
+
+.contacts__days {
+  font-weight: 700;
 }
 
 .contacts__info {

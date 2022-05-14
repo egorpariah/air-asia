@@ -1,0 +1,19 @@
+.banner {
+  background-color: #ECAD9E;
+  background: url("../../img/couple.png") right 16% bottom no-repeat, url("../../img/banner.png") center center / cover no-repeat;
+  margin-bottom: 0;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__content {
+  max-width: 55%;
+}
+
+.banner__title {
+  align-self: center;
+  margin-right: 26px;
+  margin-bottom: 0;
+}

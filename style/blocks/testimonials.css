@@ -1,0 +1,17 @@
+.testimonials {
+  padding-bottom: 86px;
+}
+
+.testimonials__list {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 54px;
+}
+
+.testimonials__item {
+  margin-bottom: 17px;
+}
+
+.testimonials__item:nth-child(2n) {
+  margin-right: 0;
+}

@@ -14,40 +14,73 @@
 
 .social__link {
   display: block;
+  position: relative;
   text-decoration: none;
   width: 36px;
   height: 36px;
-  background: center center no-repeat;
 }
 
-.social__item--tg .social__link {
-  background: url("../../img/icons/t.png");
+.social__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  opacity: 0;
 }
 
-.social__item--tg .social__link:hover {
-  background: url("../../img/icons/t-hover.png");
+.social__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
 }
 
-.social__item--vk .social__link {
-  background: url("../../img/icons/vk.png");
+.social__link:hover::before {
+  opacity: 1;
 }
 
-.social__item--vk .social__link:hover {
-  background: url("../../img/icons/vk-hover.png");
+.social__link:hover::after {
+  opacity: 0;
 }
 
-.social__item--fb .social__link {
-  background: url("../../img/icons/fb.png");
+.social__item--tg .social__link::after {
+  background: url("../../img/icons/sprite.png") -122px -10px;
 }
 
-.social__item--fb .social__link:hover {
-  background: url("../../img/icons/fb-hover.png");
+.social__item--tg .social__link::before {
+  background: url("../../img/icons/sprite.png") -122px -66px;
 }
 
-.social__item--inst .social__link {
-  background: url("../../img/icons/in.png");
+.social__item--vk .social__link::after {
+  background: url("../../img/icons/sprite.png") -10px -122px;
 }
 
-.social__item--inst .social__link:hover {
-  background: url("../../img/icons/in-hover.png");
+.social__item--vk .social__link::before {
+  background: url("../../img/icons/sprite.png") -66px -122px;
+}
+
+.social__item--fb .social__link::after {
+  background: url("../../img/icons/sprite.png") -10px -10px;
+}
+
+.social__item--fb .social__link::before{
+  background: url("../../img/icons/sprite.png") -66px -10px;
+}
+
+.social__item--inst .social__link::after {
+  background: url("../../img/icons/sprite.png") -10px -66px;
+}
+
+.social__item--inst .social__link::before {
+  background: url("../../img/icons/sprite.png") -66px -66px;
 }

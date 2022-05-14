@@ -1,5 +1,4 @@
 .partners {
-  background: #F4F5F5;
   padding-top: 85px;
   padding-bottom: 79px;
   margin-bottom: 0;
@@ -29,6 +28,7 @@
   height: 125px;
   align-items: center;
   justify-content: center;
+  transition: 0.35s ease-out;
 }
 
 .partners__link:hover {
